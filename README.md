@@ -20,5 +20,5 @@ Imaginez-vous parti à l'étranger pour une mission de travail de 10 mois. Votre
 - Sur la page d'accueil, l'utilisateur peut entrer le nom de la ville de son choix.
 - En cliquant sur le bouton "Soumettre" ou en appuyant sur "Entrée", l'application affichera la météo pour les 5 prochains jours.
 
-Vous pouvez consulter le projet final via cette URL : [https://qlexisp.github.io/weatherapp/](#)
+Vous pouvez consulter le projet final via cette URL : [https://qlexisp.github.io/weatherapp/]
 

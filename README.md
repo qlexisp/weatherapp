@@ -22,3 +22,5 @@ Imaginez-vous parti à l'étranger pour une mission de travail de 10 mois. Votre
 
 Vous pouvez consulter le projet final via cette URL : https://qlexisp.github.io/weatherapp/
 
+![Capture d'écran du projet WeatherApp](https://i.ibb.co/RPpqHk6/screencapture-qlexisp-github-io-weatherapp-2024-02-16-00-21-58.png)
+

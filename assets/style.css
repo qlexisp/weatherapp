@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body {
+  font-family: "Arial", sans-serif;
+  background-size: cover; /* S'assure que l'image de fond couvre toute la page */
+  background-position: center; /* Centre l'image de fond */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.container__search-box {
+  margin: 20px 0;
+  position: relative;
+}
+.container__search-box__submit-btn {
+  background: #365486;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.container__search-box__submit-btn:hover {
+  background-color: #273d62;
+}
+.container__search-box input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.container__search-box__autocomplete-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 10;
+}
+
+.autocomplete-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.autocomplete-item:last-child {
+  border-bottom: none;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #0F1035;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 30vh;
+}
+.weather-info__card {
+  margin-left: 10px;
+  width: 19%;
+  display: flex;
+  background-color: #365486;
+  height: 100%;
+}
+.weather-info__card__conteneur {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.weather-info__card__conteneur__icon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: -10px;
+  margin-left: 20px;
+}
+.weather-info__card__conteneur__title {
+  color: #7FC7D9;
+  font-size: 20px;
+  margin-top: -13px;
+  font-family: "PT Mono", monospace;
+}
+.weather-info__card__informations {
+  color: #DCF2F1;
+  line-height: 1.6;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.weather-info__card__informations p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+}
+.weather-info__card__informations__detail {
+  margin-bottom: 5px;
+}
+.weather-info__card__img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#city-info {
+  background-color: rgba(0, 0, 0, 0.193); /* Fond plus sombre pour un contraste accru */
+  padding: 20px; /* Espacement intérieur plus important */
+  border-radius: 10px;
+  margin: 10px auto; /* Centrage horizontal avec un espacement autour */
+  max-width: 600px; /* Limitez la largeur pour une meilleure lisibilité */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre plus prononcée */
+  color: white; /* Texte en blanc pour contraster avec le fond sombre */
+}
+
+#city-info p {
+  margin: 0;
+  padding: 10px 0; /* Espacement entre les paragraphes plus important */
+  font-size: 16px; /* Taille de police légèrement augmentée */
+}
+
+#city-info h2 {
+  color: #ffcc00; /* Couleur jaune vif pour le titre */
+  margin-bottom: 10px; /* Espacement en bas du titre */
+}/*# sourceMappingURL=style.css.map */
